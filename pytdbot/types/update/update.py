@@ -774,7 +774,7 @@ class Update:
         entities: list = None,
         parse_mode: str = None,
         disable_web_page_preview: bool = False,
-        disable_notification: dict = False,
+        disable_notification: bool = False,
         protect_content: bool = False,
         message_thread_id: int = None,
         reply_to_message_id: int = 0,
